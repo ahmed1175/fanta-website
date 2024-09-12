@@ -1,4 +1,5 @@
 import { faqData } from "./constant";
+import { useState } from "react";
 const Faq = () => {
   const [Active, setActive] = useState(null);
   const handleActiveButton = (index) => {

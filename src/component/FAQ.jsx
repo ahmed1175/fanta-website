@@ -1,4 +1,5 @@
 import React from 'react';
+import { faqData } from './constant';
 const FAQ = () => {
   const [active, setActive] = React.useState(null);
   const handleClick = (index) => {

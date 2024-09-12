@@ -7,7 +7,6 @@ import Footer from "./component/Footer";
 import Hero from "./component/Hero";
 import Products from "./component/products";
 import TextBanner from "./component/TextBanner";
-import Faq from "./faq";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
      <Banner />
      <TextBanner />
      <Blog />
-     <Faq />
+     
      <Footer />
     </main>
   );

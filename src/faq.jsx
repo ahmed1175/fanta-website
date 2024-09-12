@@ -1,6 +1,6 @@
 import React from 'react';
 import { faqData } from "./constant";
-const FAQ = () => {
+const Faq = () => {
   const [Active, setActive] = useState(null);
   const handleActiveButton = (index) => {
     setActive(index === Active ? null : index);
@@ -34,6 +34,4 @@ const FAQ = () => {
   );
 }
 
-export default FAQ;
-
-
+export default Faq;

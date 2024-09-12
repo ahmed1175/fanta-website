@@ -2,11 +2,12 @@
 
 import Banner from "./component/Banner";
 import Blog from "./component/blog";
-import FAQ from "./component/Faq";
+
 import Footer from "./component/Footer";
 import Hero from "./component/Hero";
 import Products from "./component/products";
 import TextBanner from "./component/TextBanner";
+import Faq from "./faq";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
      <Banner />
      <TextBanner />
      <Blog />
-     <FAQ />
+     <Faq />
      <Footer />
     </main>
   );

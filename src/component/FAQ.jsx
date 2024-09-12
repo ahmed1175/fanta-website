@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from 'react';
 import { faqData } from "./constant";
-
-const Faq = () => {
+const FAQ = () => {
   const [Active, setActive] = useState(null);
   const handleActiveButton = (index) => {
     setActive(index === Active ? null : index);
@@ -33,6 +32,8 @@ const Faq = () => {
       })}
     </div>
   );
-};
+}
 
-export default Faq;
+export default FAQ;
+
+

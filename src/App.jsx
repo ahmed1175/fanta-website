@@ -2,7 +2,7 @@
 
 import Banner from "./component/Banner";
 import Blog from "./component/blog";
-import Faq from "./component/Faq";
+import FAQ from "./component/Faq";
 import Footer from "./component/Footer";
 import Hero from "./component/Hero";
 import Products from "./component/products";
@@ -16,7 +16,7 @@ function App() {
      <Banner />
      <TextBanner />
      <Blog />
-     <Faq />
+     <FAQ />
      <Footer />
     </main>
   );

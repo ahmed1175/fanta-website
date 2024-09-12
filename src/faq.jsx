@@ -1,4 +1,3 @@
-import React from 'react';
 import { faqData } from "./constant";
 const Faq = () => {
   const [Active, setActive] = useState(null);
